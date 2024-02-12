@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;;
+}
+
+nav{
+    display: flex;
+    padding: 20px 10%;
+    background-color: orange;
+    color: white;
+    align-items: center;
+}
+
+.first{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.second{
+    margin-left: auto;
+    display: flex;
+    gap: 30px;
+}
+
+.second button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.backgroundSection{
+    background-image: url(/jojo-background-9.jpg);
+    background-size: cover;
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+
+.backgroundSection div{
+    text-align: center;
+}
+
+.backgroundSection p{
+    font-size: 20px;
+    margin: 20px 0px;
+    
+}
+
+.backgroundSection button{
+    font-size: 15px;
+    padding: 15px 70px;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.backgroundSection button:hover{
+    background-color: blue;
+    color: aquamarine;
+    transition: all 0.5s ease;
+    transform: scale(0.9);
+}

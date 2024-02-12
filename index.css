@@ -1,0 +1,29 @@
+/* Asterisk is the universal selector */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.div1{
+    color: blue;
+    margin: 40px;
+    background-color: aquamarine;
+    border-radius: 20px 10px 5px 0px;
+    padding: 20px;
+}
+
+#h2element{
+    color: brown;
+}
+
+.div2 button{
+    border: none;
+    padding: 10px 30px;
+    background-color: blueviolet;
+    margin: 0px 100px;
+    border-radius: 30px;
+    color: white;
+}
+
+

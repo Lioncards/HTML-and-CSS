@@ -1,0 +1,406 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+}
+
+/* ==================================================Navigation bar=========================== */
+
+nav{
+    display: flex;
+    width: 100%;
+    padding: 20px 60px;
+    background-color: #13131d;
+    color: white;
+    align-items: center;
+    position: fixed ; 
+    border-bottom:#ffffff14 solid 1px;
+    z-index: 3;
+}
+
+nav div{
+    display: flex;
+    /* width: 100%; */
+    /* text-align: center; */
+    align-items: center;
+    position: relative;
+}
+
+.firstDiv{
+    display: flex;
+    gap: 20px;
+    margin-right: auto;
+}
+
+nav div ul{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    gap: 30px;
+    /* position: relative; */
+}
+
+.dropd1{
+    display: block;
+    padding: 10px 30px 10px 10px;
+    background-color: black;
+    color: grey;
+    font-size: 25px;
+    border-radius: 5px;
+    gap: 30px;
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 155px;
+}
+
+.dropd1 li{
+    padding: 10px 0px 10px 0px;
+}
+
+.homeMenu:hover .dropd1{
+    display: block;
+}
+
+.dropd2{
+    display: block;
+    padding: 10px 30px 10px 10px;
+    background-color: black;
+    color: grey;
+    font-size: 25px;
+    border-radius: 5px;
+    gap: 30px;
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 315px;
+}
+
+.dropd2 li{
+    padding: 10px 0px 10px 0px; 
+}
+
+.expMenu ul{
+    text-align: left;
+}
+
+.expMenu:hover .dropd2{
+    display: block;
+}
+
+.dropd3{
+    display: block;
+    padding: 10px 30px 10px 10px;
+    background-color: black;
+    color: grey;
+    font-size: 25px;
+    border-radius: 5px;
+    gap: 30px;
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 500px;
+    width: 50%;
+}
+
+.dropd3 li{
+    padding: 10px 0px 10px 0px;
+}
+
+.blogMenu ul{
+    text-align: left;
+}
+
+.blogMenu:hover .dropd3{
+    display: block;
+}
+
+.secondDiv{
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+    font-size: 14px;
+}
+
+nav div img{
+    margin-right: 50px;
+}
+
+#btn1{
+    background-color:#2899d8;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.secondDiv input{
+    padding: 10px 100px 10px 15px;
+    background-color: #212e48;
+    border-color:#ffffff14;
+    /* border: solid; */
+    border-radius: 5px;
+    color: white;
+}
+
+.secondDiv input::placeholder{
+    /* margin-right: auto; */
+    color: #ffffff14;
+    /* font-size: 15px; */
+}
+
+.secondDiv button{
+    border-color: #ffffff14;
+    padding: 10px;
+    background-color: #212e48;
+    color: grey;
+    /* border: solid; */
+    border-radius: 200px
+}
+
+
+
+/* ======================================Navigation============================ */
+
+/* =========================================Section================================= */
+
+.sectionOne{
+    display: flex;
+    align-items: center;
+    padding: 185px 150px 60px 10px;
+    gap: 50px;
+    background-color: #13131d;
+}
+
+.fourthDiv{
+    /* margin-left: auto; */
+}
+
+.thirdDiv{
+    padding: 40px 50px;
+    font-size: 40px;
+}
+
+.sectionOne div p{
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    color: grey;
+}
+
+.sectionOne div button{
+    padding: 20px 35px;
+    border-radius: 10px;
+    color: white;
+    background-color: #212e48;
+    font-size: 15px;
+    border: none;
+}
+
+.sectionOne div h1{
+    color: white;
+}
+
+#btn2{
+    background-color: #2899d8;
+}
+
+.sectionTwo{
+    display: flex;
+    /* width: 100%; */
+    align-items: center;
+    font-size: 23px;
+    padding: 50px;
+    background-color: #13131d;
+    color: white;
+}
+
+.secDiv2{
+    margin-left: auto;
+    display: flex;
+    gap: 30px;
+}
+
+.secDiv2 button{
+    padding: 15px;
+    font-size: 20px;
+    background-color: #13131d;
+    color: #2899d8;
+    border-radius: 5px;
+    border: none;
+}
+
+.secDiv2 button:hover{
+    background-color: #2899d8;
+    color: white;
+}
+
+/* ============First Set of Cards================ */
+
+.sectionThree{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 0px 50px;
+    padding-bottom: 20px;
+    background-color: #13131d;
+}
+
+.sectionThree div{
+    background-color: #242435;
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cardPic img{
+    width: 100%;
+    /* height: 30vh; */
+    border-radius: 8px;
+}
+
+.profilePic div img{
+    border-radius: 20px;
+    width: 20px;
+}
+
+.picCard{
+    display: flex;
+    color: grey;
+}
+
+.picCard p{
+    padding: 0px 15px;
+}
+
+.picCard i{
+    margin-left: auto;
+}
+
+.picCard2 h2{
+    color: white;
+}
+
+.picCard2 p{
+    color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#pc31{
+    color: #00a3ff;
+}
+
+#pc32{
+    color: grey;
+    margin-left: auto;
+}
+
+.picCard3{
+    display: flex;
+}
+
+/* ==============================First Set of Cards=============================== */
+
+/* ==================================Second Set of Cards================================= */
+
+.sectionFour{
+    display: flex;
+    padding: 50px;
+    gap: 30px;
+    background-color: #13131d;
+}
+
+.sectionFour div{
+    background-color: #242435;
+    padding: 10px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+
+.walletImg h3{
+    padding: 10px;
+    color: grey;  
+}
+
+.secFourDiv{
+    position: relative;
+}
+
+.walletImg img{
+    width: 100px;
+    position: absolute;
+    left: 250px;
+    top: -40px;
+}
+
+.walletImg2 h2{
+    padding: 10px;
+    color: white;
+}
+
+.walletImg2 h3{
+    padding: 10px;
+    color: grey;
+}
+
+.walletImg2 i{
+    font-size: 20px;
+    padding: 10px;
+    color: grey;
+}
+
+.three5 h2{
+    padding: 60px 50px;
+    background-color: #13131d;
+    color: white;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.three3{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    background-color: #13131d;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.three3 p{
+    margin-left: auto;
+    color: grey;
+}
+
+.three3 h2{
+    font-size: 35px;
+}
+
+
+/* =================================Second and Third Set of Cards==================================== */
+
+/* =============================Fourth Division================================== */
+
+.topSeller{
+    display: flex;
+    background-color: #13131d;
+    padding: 50px;
+    padding-bottom: 20px;
+}
+
+.topSeller h1{
+    color: white;
+    font-size: 35px
+}
+
+.topSeller h2{
+    color: #00a3ff;
+    padding-left: 25px;
+    padding-top: 5px;
+    font-size: 30px;
+}
+
+
+

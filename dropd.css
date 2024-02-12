@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.zeroClass{
+    margin: 100px;
+}
+
+.secondClass{
+    padding: 20px;
+    background-color: blue;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+    display: none;
+    /* transition: all ease 0.5s; */
+    cursor: pointer;
+    position: absolute;
+    /* top: 18px; */
+
+}
+
+.zeroClass{
+    /* cursor: pointer; */
+    position: relative;
+    transition: all ease 0.5s;
+}
+
+.zeroClass:hover .secondClass{
+    display: block;
+}

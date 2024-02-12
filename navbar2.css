@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    align-items: center;
+    /* margin: 20px; */
+}
+
+nav div{
+    display: flex;
+    width: 100%;
+    margin: 0px 2%;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+    
+}
+
+.first p{
+    margin-left: 8%;
+}
+
+.second p{
+    margin-right: 1%;
+    margin-left: 75%;
+}
+
+

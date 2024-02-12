@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* .parentdiv{
+    display: flex;
+    gap: 5px;
+} */
+
+.parentdiv{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.parentdiv div{
+    margin-bottom: 20px;
+    background-color: aqua;
+    padding: 30px;
+   
+}
